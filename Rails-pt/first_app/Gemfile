@@ -45,3 +45,10 @@ group :development do
   gem 'spring'
 end
 
+group :production do
+  # Dlja raboti Heroku
+  gem 'pg'
+  gem 'rails_12factor'
+end
+
+# ruby '2.2.1'
