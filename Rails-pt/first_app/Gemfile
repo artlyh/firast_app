@@ -47,8 +47,8 @@ end
 
 group :production do
   # Dlja raboti Heroku
-  gem 'pg'
+  gem 'pg', '0.18.3'
   gem 'rails_12factor'
 end
 
-# ruby '2.2.1'
+ ruby '2.2.1'
